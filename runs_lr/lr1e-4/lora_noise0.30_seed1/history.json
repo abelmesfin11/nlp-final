@@ -1,0 +1,134 @@
+[
+ {
+  "step": 0,
+  "epoch": 0.0,
+  "sst2_acc": 0.4908256880733945,
+  "mem_rate": 0.557,
+  "fix_rate": 0.443,
+  "clean_fit": 0.446,
+  "imdb_acc": 0.501
+ },
+ {
+  "step": 312,
+  "epoch": 0.25,
+  "sst2_acc": 0.8612385321100917,
+  "mem_rate": 0.193,
+  "fix_rate": 0.807,
+  "clean_fit": 0.841
+ },
+ {
+  "step": 624,
+  "epoch": 0.499,
+  "sst2_acc": 0.8795871559633027,
+  "mem_rate": 0.14,
+  "fix_rate": 0.86,
+  "clean_fit": 0.895
+ },
+ {
+  "step": 936,
+  "epoch": 0.749,
+  "sst2_acc": 0.823394495412844,
+  "mem_rate": 0.186,
+  "fix_rate": 0.814,
+  "clean_fit": 0.851
+ },
+ {
+  "step": 1248,
+  "epoch": 0.998,
+  "sst2_acc": 0.8222477064220184,
+  "mem_rate": 0.171,
+  "fix_rate": 0.829,
+  "clean_fit": 0.879
+ },
+ {
+  "step": 1250,
+  "epoch": 1.0,
+  "sst2_acc": 0.8371559633027523,
+  "mem_rate": 0.161,
+  "fix_rate": 0.839,
+  "clean_fit": 0.9,
+  "imdb_acc": 0.7965
+ },
+ {
+  "step": 1560,
+  "epoch": 1.248,
+  "sst2_acc": 0.8704128440366973,
+  "mem_rate": 0.172,
+  "fix_rate": 0.828,
+  "clean_fit": 0.91
+ },
+ {
+  "step": 1872,
+  "epoch": 1.498,
+  "sst2_acc": 0.8990825688073395,
+  "mem_rate": 0.184,
+  "fix_rate": 0.816,
+  "clean_fit": 0.934
+ },
+ {
+  "step": 2184,
+  "epoch": 1.747,
+  "sst2_acc": 0.8864678899082569,
+  "mem_rate": 0.19,
+  "fix_rate": 0.81,
+  "clean_fit": 0.948
+ },
+ {
+  "step": 2496,
+  "epoch": 1.997,
+  "sst2_acc": 0.9139908256880734,
+  "mem_rate": 0.211,
+  "fix_rate": 0.789,
+  "clean_fit": 0.966
+ },
+ {
+  "step": 2500,
+  "epoch": 2.0,
+  "sst2_acc": 0.8956422018348624,
+  "mem_rate": 0.228,
+  "fix_rate": 0.772,
+  "clean_fit": 0.957,
+  "imdb_acc": 0.823
+ },
+ {
+  "step": 2808,
+  "epoch": 2.246,
+  "sst2_acc": 0.8853211009174312,
+  "mem_rate": 0.248,
+  "fix_rate": 0.752,
+  "clean_fit": 0.953
+ },
+ {
+  "step": 3120,
+  "epoch": 2.496,
+  "sst2_acc": 0.8772935779816514,
+  "mem_rate": 0.273,
+  "fix_rate": 0.727,
+  "clean_fit": 0.96
+ },
+ {
+  "step": 3432,
+  "epoch": 2.746,
+  "sst2_acc": 0.875,
+  "mem_rate": 0.309,
+  "fix_rate": 0.691,
+  "clean_fit": 0.962
+ },
+ {
+  "step": 3744,
+  "epoch": 2.995,
+  "sst2_acc": 0.8807339449541285,
+  "mem_rate": 0.319,
+  "fix_rate": 0.681,
+  "clean_fit": 0.967
+ },
+ {
+  "step": 3750,
+  "epoch": 3.0,
+  "sst2_acc": 0.8830275229357798,
+  "mem_rate": 0.32,
+  "fix_rate": 0.68,
+  "clean_fit": 0.967,
+  "imdb_acc": 0.795
+ }
+]

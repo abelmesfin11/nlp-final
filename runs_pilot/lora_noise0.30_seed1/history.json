@@ -1,0 +1,52 @@
+[
+ {
+  "step": 0,
+  "epoch": 0.0,
+  "sst2_acc": 0.4908256880733945,
+  "mem_rate": 0.557,
+  "fix_rate": 0.443,
+  "clean_fit": 0.446,
+  "imdb_acc": 0.501
+ },
+ {
+  "step": 312,
+  "epoch": 0.25,
+  "sst2_acc": 0.8910550458715596,
+  "mem_rate": 0.141,
+  "fix_rate": 0.859,
+  "clean_fit": 0.873
+ },
+ {
+  "step": 624,
+  "epoch": 0.499,
+  "sst2_acc": 0.7522935779816514,
+  "mem_rate": 0.245,
+  "fix_rate": 0.755,
+  "clean_fit": 0.82
+ },
+ {
+  "step": 936,
+  "epoch": 0.749,
+  "sst2_acc": 0.8577981651376146,
+  "mem_rate": 0.174,
+  "fix_rate": 0.826,
+  "clean_fit": 0.902
+ },
+ {
+  "step": 1248,
+  "epoch": 0.998,
+  "sst2_acc": 0.8807339449541285,
+  "mem_rate": 0.169,
+  "fix_rate": 0.831,
+  "clean_fit": 0.929
+ },
+ {
+  "step": 1250,
+  "epoch": 1.0,
+  "sst2_acc": 0.8772935779816514,
+  "mem_rate": 0.168,
+  "fix_rate": 0.832,
+  "clean_fit": 0.93,
+  "imdb_acc": 0.8425
+ }
+]

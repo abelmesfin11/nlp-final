@@ -1,0 +1,8 @@
+torch>=2.3
+transformers>=4.51   # Qwen3 support
+peft>=0.13           # DoRA support (use_dora=True)
+datasets>=3.0
+pandas
+numpy
+matplotlib
+tabulate

@@ -1,0 +1,147 @@
+{
+ "run": "full_noise0.00_seed2",
+ "config": {
+  "method": "full",
+  "noise": 0.0,
+  "seed": 2,
+  "data_seed": 0,
+  "model": "Qwen/Qwen3-0.6B-Base",
+  "n_train": 20000,
+  "n_imdb": 2000,
+  "epochs": 3,
+  "batch_size": 16,
+  "grad_accum": 1,
+  "lr": 1e-05,
+  "weight_decay": 0.01,
+  "warmup_ratio": 0.06,
+  "max_len": 128,
+  "imdb_max_len": 512,
+  "lora_r": 16,
+  "lora_alpha": 32,
+  "lora_dropout": 0.05,
+  "evals_per_epoch": 4,
+  "track_n": 1000,
+  "eval_batch_size": 64,
+  "grad_checkpointing": false,
+  "num_threads": 4,
+  "save_model": false,
+  "cache_dir": "data",
+  "out_root": "runs",
+  "max_steps": null,
+  "limit_eval": null
+ },
+ "trainable_params": 596051968,
+ "total_params": 596051968,
+ "train_time_sec": 685.2,
+ "peak_gpu_mem_gb": 11.98,
+ "final": {
+  "step": 3750,
+  "epoch": 3.0,
+  "sst2_acc": 0.9334862385321101,
+  "clean_fit": 0.998,
+  "imdb_acc": 0.881
+ },
+ "best_sst2_during_training": 0.9346330275229358,
+ "history": [
+  {
+   "step": 0,
+   "epoch": 0.0,
+   "sst2_acc": 0.4908256880733945,
+   "clean_fit": 0.427,
+   "imdb_acc": 0.498
+  },
+  {
+   "step": 312,
+   "epoch": 0.25,
+   "sst2_acc": 0.8979357798165137,
+   "clean_fit": 0.927
+  },
+  {
+   "step": 624,
+   "epoch": 0.499,
+   "sst2_acc": 0.908256880733945,
+   "clean_fit": 0.921
+  },
+  {
+   "step": 936,
+   "epoch": 0.749,
+   "sst2_acc": 0.8990825688073395,
+   "clean_fit": 0.941
+  },
+  {
+   "step": 1248,
+   "epoch": 0.998,
+   "sst2_acc": 0.9094036697247706,
+   "clean_fit": 0.964
+  },
+  {
+   "step": 1250,
+   "epoch": 1.0,
+   "sst2_acc": 0.9174311926605505,
+   "clean_fit": 0.965,
+   "imdb_acc": 0.8785
+  },
+  {
+   "step": 1560,
+   "epoch": 1.248,
+   "sst2_acc": 0.9254587155963303,
+   "clean_fit": 0.967
+  },
+  {
+   "step": 1872,
+   "epoch": 1.498,
+   "sst2_acc": 0.9197247706422018,
+   "clean_fit": 0.98
+  },
+  {
+   "step": 2184,
+   "epoch": 1.747,
+   "sst2_acc": 0.930045871559633,
+   "clean_fit": 0.982
+  },
+  {
+   "step": 2496,
+   "epoch": 1.997,
+   "sst2_acc": 0.9208715596330275,
+   "clean_fit": 0.987
+  },
+  {
+   "step": 2500,
+   "epoch": 2.0,
+   "sst2_acc": 0.9162844036697247,
+   "clean_fit": 0.986,
+   "imdb_acc": 0.885
+  },
+  {
+   "step": 2808,
+   "epoch": 2.246,
+   "sst2_acc": 0.9197247706422018,
+   "clean_fit": 0.994
+  },
+  {
+   "step": 3120,
+   "epoch": 2.496,
+   "sst2_acc": 0.9220183486238532,
+   "clean_fit": 0.996
+  },
+  {
+   "step": 3432,
+   "epoch": 2.746,
+   "sst2_acc": 0.9346330275229358,
+   "clean_fit": 0.997
+  },
+  {
+   "step": 3744,
+   "epoch": 2.995,
+   "sst2_acc": 0.9334862385321101,
+   "clean_fit": 0.998
+  },
+  {
+   "step": 3750,
+   "epoch": 3.0,
+   "sst2_acc": 0.9334862385321101,
+   "clean_fit": 0.998,
+   "imdb_acc": 0.881
+  }
+ ]
+}

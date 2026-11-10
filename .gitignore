@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+
+# Datasets and caches
+data/
+
+# Slurm logs
+logs/*
+!logs/.keep

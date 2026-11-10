@@ -1,0 +1,99 @@
+{
+ "run": "lora_noise0.30_seed1",
+ "config": {
+  "method": "lora",
+  "noise": 0.3,
+  "seed": 1,
+  "data_seed": 0,
+  "model": "Qwen/Qwen3-0.6B-Base",
+  "n_train": 20000,
+  "n_imdb": 2000,
+  "epochs": 1,
+  "batch_size": 16,
+  "grad_accum": 1,
+  "lr": 0.0002,
+  "weight_decay": 0.01,
+  "warmup_ratio": 0.06,
+  "max_len": 128,
+  "imdb_max_len": 512,
+  "lora_r": 16,
+  "lora_alpha": 32,
+  "lora_dropout": 0.05,
+  "evals_per_epoch": 4,
+  "track_n": 1000,
+  "eval_batch_size": 64,
+  "grad_checkpointing": false,
+  "num_threads": 4,
+  "save_model": false,
+  "cache_dir": "data",
+  "out_root": "runs_pilot",
+  "max_steps": null,
+  "limit_eval": null
+ },
+ "trainable_params": 10094592,
+ "total_params": 606146560,
+ "train_time_sec": 196.3,
+ "peak_gpu_mem_gb": 6.05,
+ "final": {
+  "step": 1250,
+  "epoch": 1.0,
+  "sst2_acc": 0.8772935779816514,
+  "mem_rate": 0.168,
+  "fix_rate": 0.832,
+  "clean_fit": 0.93,
+  "imdb_acc": 0.8425
+ },
+ "best_sst2_during_training": 0.8910550458715596,
+ "history": [
+  {
+   "step": 0,
+   "epoch": 0.0,
+   "sst2_acc": 0.4908256880733945,
+   "mem_rate": 0.557,
+   "fix_rate": 0.443,
+   "clean_fit": 0.446,
+   "imdb_acc": 0.501
+  },
+  {
+   "step": 312,
+   "epoch": 0.25,
+   "sst2_acc": 0.8910550458715596,
+   "mem_rate": 0.141,
+   "fix_rate": 0.859,
+   "clean_fit": 0.873
+  },
+  {
+   "step": 624,
+   "epoch": 0.499,
+   "sst2_acc": 0.7522935779816514,
+   "mem_rate": 0.245,
+   "fix_rate": 0.755,
+   "clean_fit": 0.82
+  },
+  {
+   "step": 936,
+   "epoch": 0.749,
+   "sst2_acc": 0.8577981651376146,
+   "mem_rate": 0.174,
+   "fix_rate": 0.826,
+   "clean_fit": 0.902
+  },
+  {
+   "step": 1248,
+   "epoch": 0.998,
+   "sst2_acc": 0.8807339449541285,
+   "mem_rate": 0.169,
+   "fix_rate": 0.831,
+   "clean_fit": 0.929
+  },
+  {
+   "step": 1250,
+   "epoch": 1.0,
+   "sst2_acc": 0.8772935779816514,
+   "mem_rate": 0.168,
+   "fix_rate": 0.832,
+   "clean_fit": 0.93,
+   "imdb_acc": 0.8425
+  }
+ ]
+}
